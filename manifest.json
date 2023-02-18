@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "GreenCart",
+    "version": "1.0.1",
+    "description": "Your Eco-Frendly Grocery Assistant",
+
+    "browser_action": {
+        "default_title": "Green Cart",
+        "default_icon": "logo.png", 
+        "default_popup": "popup.html" 
+    },
+      
+      "background": {
+        "service_worker": "backend.js"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["https://www.instacart*"],
+        "css": ["styles.css"],
+        "js": ["background.js"]
+      }
+    ],
+
+    "permissions": ["activeTab", "storage", "scripting"]
+}
