@@ -10,17 +10,9 @@
       "default_popup": "popup.html"
     },
 
-      "background": {
-        "service_worker": "backend.js"
-    },
-
-    // "content_scripts": [
-    //   {
-    //     "matches": ["https://www.instacart*"],
-    //     "css": ["styles.css"],
-    //     "js": ["background.js"]
-    //   }
-    // ],
+    // "background": {
+    //     "service_worker": "background.js"
+    // },
 
     "permissions": ["activeTab", "storage", "scripting"]
 }
