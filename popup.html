@@ -1,15 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Cart</title>
+  <style>
+    .button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+  transition: 0.7s;
+}
+  .button:hover {opacity: 0.7}
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <div>
-        <h2>Greencart</h2>
-    </div>
+     <p style="text-align: center;"><img src="https://i.ibb.co/YPP9z9k/gclogofinal.png" width=330 height = 80/> </p>
+
+    <ul style="text-align: left;">  
+      
+    </ul>
+  <div id="rating">
+    <section class="circle-chart-container">
+      <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+          <circle stroke="#efefef" stroke-width=".5" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+          <circle class="circle-chart-circle" stroke="#4CAF50" stroke-width="6" stroke-dasharray="54,100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+        </svg>
+      <span class="circle-chart-percentage circle-chart-one-percentage">
+          56.1%
+        </span>
+    </section>
+      <h2 id="legendOne" style="padding-bottom: 10px;">Great Value Frozen Beef Burgers</h2>
+      <h2 id="legend"> Water Use by Food per 1000 Kcal </h2>
+      <p style = "padding-left: 200px;"> <b><abbr title="GreenCart's metric rating out of 10"> RATING:* </abbr></b></p>
+      <p id="typewriter" >❌❌❌❌❌❌❌❌</p>
+</div>
+   <div id="openai">
+    <a href='rec.html' id="shopbutton"> SHOP  RECS</a>
+     
+   </div>
 </body>
-<script src="script.js"></script>
+
 </html>
