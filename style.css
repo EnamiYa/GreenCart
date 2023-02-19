@@ -173,8 +173,7 @@ html {
   #openai{
     margin-top: 10px;
       background-color: #0e5d0e;
-    padding-top: 248px;
-    padding-bottom: 60px;
+    padding-top: 180px;
   }
   
   #shopbutton {
@@ -190,16 +189,4 @@ html {
     font-size: 20px;
     position:absolute;
     bottom:0
-  }
-  #site {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #09490d;
-    text-align: center;
-    cursor: pointer;
-    float: left;
-    width: 100%;
-    font-size: 16px;
   }
