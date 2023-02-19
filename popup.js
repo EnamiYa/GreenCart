@@ -66,7 +66,7 @@ function sendData2(dat) {
 
     xhr2 = getXmlHttpRequestObject2();
     xhr2.onreadystatechange = dataCallback2;
-    xhr2.open("POST", "https://gcheang.autocode.dev/ellehacks@0.0.2/", true);
+    xhr2.open("POST", "https://gcheang.autocode.dev/ellehacks@0.0.3/", true);
     xhr2.setRequestHeader("Content-Type", "application/json");
     console.log("sending: " + dataToSend);
     xhr2.send(dataToSend);

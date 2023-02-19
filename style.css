@@ -171,16 +171,19 @@ html {
   }
   
   #openai{
-    margin-top: 10px;
+    margin-top: 2px;
       background-color: #0e5d0e;
-    padding-top: 180px;
+    padding-top: 80px;
+    color: white;
+    font:bold;
+    padding-bottom: 5px;
+
   }
   
   #shopbutton {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px;
     padding-left: 150px;
     padding-right: 195px;
     text-align: center;
@@ -188,5 +191,5 @@ html {
     display: inline-block;
     font-size: 20px;
     position:absolute;
-    bottom:0
+    top: 375px;
   }
