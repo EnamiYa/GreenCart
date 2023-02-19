@@ -27,7 +27,6 @@ html {
   
   body{
     font-family: calibri;
-    overflow: hidden;
   }
   
   .button {
@@ -127,8 +126,17 @@ html {
     to { stroke-dasharray: 0 100; }
   }
   
+  #legendOne {
+    padding-top: 10px;
+    margin-left: 180px;
+    padding-left: 20px;
+    font-weight: 900;
+    max-width: 200px;
+    background-color: #9cf29c;
+  }
+  
   #legend {
-    padding-top: 50px;
+    padding-top: 5px;
     padding-left: 200px;
     font-weight: 900;
     max-width: 200px;
@@ -165,7 +173,8 @@ html {
   #openai{
     margin-top: 10px;
       background-color: #0e5d0e;
-    padding-top: 200px;
+    padding-top: 248px;
+    padding-bottom: 60px;
   }
   
   #shopbutton {
@@ -181,4 +190,16 @@ html {
     font-size: 20px;
     position:absolute;
     bottom:0
+  }
+  #site {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #09490d;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    font-size: 16px;
   }
