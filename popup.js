@@ -62,7 +62,7 @@ function dataCallback2() {
         data_result2 = xhr2.responseText;
         var div = document.getElementById('openai-res');
         div.innerHTML = data_result2.split("\n").join("<br />");
-        alert(data_result2);
+        // alert(data_result2);
     }
 }
 function sendData2(dat) {
