@@ -1,4 +1,5 @@
 var test_data = "Beef (beef herd)";
+var test_data2 = "Bananas";
 
 var xhr = null;
 var data_result = null;
@@ -80,6 +81,13 @@ async function update_info() {
         console.log("Title: " + title);
         var element = document.getElementById("legendOne");
         element.innerHTML = title;
+        if (title.includes("Bananas")) {
+            sendData(test_data2);
+            document.getElementById('openai-res').innerHTML = "";
+            document.getElementById('shopbutton').style.display = "none";
+            document.getElementById('typewriter').innerHTML = "✔️";
+            return;
+        }
         sendData(test_data);
         sendData2(test_data);
     });
